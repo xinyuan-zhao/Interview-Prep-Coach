@@ -1,4 +1,4 @@
 interface:
   display_name: "英文面试准备教练"
-  short_description: "为中文用户提供英文答题准备、模拟面试与中文反馈"
+  short_description: "陪你准备英文答案、模拟面试，并用中文提供反馈"
   default_prompt: "使用 $interview-prep-coach-en 帮我准备英文面试；我会提供简历和职位描述（JD）。请用英文提问和准备答案，用中文解释与反馈。"
