@@ -15,7 +15,7 @@ This is an interview-preparation Skill for ChatGPT and Codex. Give it your **res
 ### 中文版
 
 1. 点击下载：**[下载中文版 Skill ZIP](https://github.com/xinyuan-zhao/Interview-Prep-Coach/raw/refs/heads/main/downloads/interview-prep-coach-zh.zip)**
-2. 把下载的 ZIP 直接拖进支持 Skills 的 ChatGPT 或 Codex 对话。
+2. 把下载的 ZIP 直接拖进支持 Skills 的 ai 对话。
 3. 输入：
 
 ```text
