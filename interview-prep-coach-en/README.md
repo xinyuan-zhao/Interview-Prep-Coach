@@ -1,63 +1,33 @@
-# Interview Prep Coach — English
+# 英文面试准备教练
 
-An evidence-based Agent Skill that turns your resume and a job description into focused interview preparation. It helps you understand what the employer needs, choose real experiences that prove your fit, practice realistic questions, and improve your answers without inventing facts.
+面向参加**英文面试的中文用户**。面试问题和答案默认使用英文，分析、解释和反馈默认使用中文。
 
-## What You Need
+## 需要准备
 
-Required for complete preparation:
+1. 简历 / Resume / CV。
+2. 职位描述 / JD。
 
-1. Your resume or CV.
-2. The job description.
+可选：公司、招聘链接、面试轮次、日期、面试官公开背景、已有答案或笔记。
 
-Optional but helpful:
+## 开始使用
 
-- Company name or job-posting URL.
-- Interview stage/type and date.
-- Interviewer name or public professional background.
-- Existing answers or interview notes.
+安装本 Skill，或让 AI 读取 `SKILL.md`，然后输入：
 
-## Install
+```text
+使用 $interview-prep-coach-en 帮我准备英文面试。
+这是我的简历和 JD。请用英文提问和准备答案，用中文解释与反馈。
+```
 
-Download or clone this repository, then zip the `interview-prep-coach-en` folder by itself. Upload/install that folder as an Agent Skill in a product that supports the Agent Skills format. Keep `SKILL.md`, `agents/`, and `references/` together.
+## 常用指令
 
-## Start
+- 分析这个 JD，告诉我英文面试最可能验证什么。
+- 帮我准备英文 Tell me about yourself。
+- 把这段真实经历整理成英文 STAR 故事。
+- 直接开始英文模拟面试，每次只问一个问题。
+- 像严格的 Hiring Manager 一样用英文追问，每题后用中文反馈。
+- 生成中英对照的面试速查表。
+- 我刚完成英文面试，帮我用中文复盘。
 
-Invoke `$interview-prep-coach-en` and say:
+## 真实性与隐私
 
-> Help me prepare for this interview. Here are my resume and the job description.
-
-If you are unsure what to do, simply ask:
-
-> What do I need to send you?
-
-## Example Commands
-
-- Analyze this JD.
-- Match my experience to this role.
-- Which three capabilities matter most?
-- Help me turn this experience into a STAR story.
-- Predict the questions they are most likely to ask.
-- Help me answer “Tell me about yourself.”
-- Start a mock interview.
-- Act like a tough hiring manager.
-- Give me feedback after every answer.
-- Generate my interview cheat sheet.
-- I just finished my interview. Help me debrief.
-
-## What It Produces
-
-- Role and competency analysis.
-- Resume × JD evidence map.
-- Top selling points and honest gap positioning.
-- Three to five reusable STAR stories.
-- Prioritized interview questions.
-- Critical answer outlines or scripts.
-- Realistic mock interviews with follow-ups and scoring.
-- A concise pre-interview cheat sheet.
-- A structured post-interview debrief.
-
-## Truthfulness and Privacy
-
-The Skill is designed not to invent experience, leadership, tools, achievements, or numbers. It will ask for missing facts or label an evidence gap. Review every answer for accuracy before using it.
-
-Your resume may contain personal information. Share only what is necessary, remove sensitive details when possible, and follow your organization's data policies.
+本 Skill 不应编造经历、Leadership、Ownership、工具、成绩或数字。证据不足时应追问或标记 Gap。上传前请删除不必要的敏感信息，并核对所有答案的事实准确性。
