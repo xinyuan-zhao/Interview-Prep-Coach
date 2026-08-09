@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interview Prep Coach"
+  short_description: "Evidence-based interview preparation and mock practice"
+  default_prompt: "Use $interview-prep-coach-en to prepare for my interview; I will provide my resume and the job description."
