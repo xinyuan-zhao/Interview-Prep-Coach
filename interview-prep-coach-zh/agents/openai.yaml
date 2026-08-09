@@ -1,4 +1,4 @@
 interface:
   display_name: "中文面试准备教练"
-  short_description: "为中文用户提供中文答题准备、模拟面试与复盘"
+  short_description: "陪你准备中文答案、模拟面试，并完成面后复盘"
   default_prompt: "使用 $interview-prep-coach-zh 帮我准备中文面试；我会提供简历和职位描述（JD）。"
