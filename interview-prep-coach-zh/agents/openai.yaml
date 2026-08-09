@@ -1,0 +1,4 @@
+interface:
+  display_name: "面试准备教练"
+  short_description: "用真实经历完成岗位分析、答题准备、模拟面试与复盘"
+  default_prompt: "使用 $interview-prep-coach-zh 帮我准备面试；我会提供简历和职位描述（JD）。"
