@@ -1,163 +1,89 @@
 # Interview Prep Coach｜面试准备教练
 
-> **第一次使用？从这里开始。No technical experience required.**
+用 **简历 + JD** 完成岗位分析、经历匹配、STAR 故事、重点问题、模拟面试、速查表和面后复盘。
 
-这是一个可以安装到 ChatGPT / Codex 的面试准备 Skill。你只需要准备 **简历 + 职位描述（JD）**，它会帮你分析岗位、匹配真实经历、准备 STAR 故事、预测重点问题、进行模拟面试，并生成面试速查表。
+Use your **resume + job description** for role analysis, evidence mapping, STAR stories, likely questions, mock interviews, cheat sheets, and debriefs.
 
-This is an interview-preparation Skill for ChatGPT and Codex. Give it your **resume + job description**, and it will analyze the role, map your real evidence, build STAR stories, prioritize likely questions, run mock interviews, and create a concise cheat sheet.
+> 适用于支持 Agent Skills、`SKILL.md` 或文件指令的 AI 工具，不限于 ChatGPT。
+>
+> Works with AI tools that support Agent Skills, `SKILL.md`, or file-based instructions—not only ChatGPT.
 
----
+## 最快开始｜Quick Start
 
-## 🚀 最快安装｜Fastest Setup
+### 中文面试版
 
-不懂 GitHub、不会压缩文件也没关系。只需要三步：
+适合准备中文面试的中文用户。
 
-### 中文版
-
-1. 点击下载：**[下载中文版 Skill ZIP](https://github.com/xinyuan-zhao/Interview-Prep-Coach/raw/refs/heads/main/downloads/interview-prep-coach-zh.zip)**
-2. 把下载的 ZIP 直接拖进支持 Skills 的 ai 对话。
+1. **[下载中文面试版 ZIP](https://github.com/xinyuan-zhao/Interview-Prep-Coach/raw/refs/heads/main/downloads/interview-prep-coach-zh.zip)**
+2. 把 ZIP 上传给你的 AI。
 3. 输入：
 
 ```text
-请帮我安装这个 Interview Prep Coach Skill。
-安装完成后告诉我如何开始。
+请读取并使用这个 Interview Prep Coach Skill。
+如果支持 Agent Skills，请帮我安装；如果不支持安装，请按照 SKILL.md 在当前对话中执行。
 ```
 
-AI 会检查文件并引导你完成安装确认。安装完成后，上传简历和 JD，然后说：
+然后上传简历和 JD：
 
 ```text
-使用 $interview-prep-coach-zh 帮我完整准备这场面试。
+帮我完整准备这场中文面试。这是我的简历和 JD。
 ```
 
-### English version
+### 英文面试版
 
-1. Download: **[English Skill ZIP](https://github.com/xinyuan-zhao/Interview-Prep-Coach/raw/refs/heads/main/downloads/interview-prep-coach-en.zip)**
-2. Drag the ZIP into a ChatGPT or Codex conversation that supports Skills.
-3. Enter:
+适合准备英文面试的中文用户：AI 用英文提问和准备答案，用中文解释与反馈。
+
+1. **[下载英文面试版 ZIP](https://github.com/xinyuan-zhao/Interview-Prep-Coach/raw/refs/heads/main/downloads/interview-prep-coach-en.zip)**
+2. 把 ZIP 上传给你的 AI。
+3. 输入：
 
 ```text
-Please help me install this Interview Prep Coach Skill.
-Tell me how to start after installation.
+请读取并使用这个英文面试版 Interview Prep Coach Skill。
+如果支持 Agent Skills，请帮我安装；如果不支持安装，请按照 SKILL.md 在当前对话中执行。
 ```
 
-After installation, attach your resume and JD, then enter:
+然后上传简历和 JD：
 
 ```text
-Use $interview-prep-coach-en to prepare me completely for this interview.
+帮我完整准备这场英文面试。请用英文提问和准备答案，用中文解释与反馈。
+这是我的简历和 JD。
 ```
 
-> 安装 Skill 会改变你的账号配置，因此 AI 仍可能要求你点击一次确认。不同账号或工作区的功能入口可能略有不同。如果以上方式不可用，请继续阅读下面的详细教程。
->
-> Installing a Skill changes your account configuration, so the AI may still ask you to confirm. If this quick method is unavailable for your account, use the detailed instructions below.
+## 如果 AI 不能读取 ZIP｜If ZIP Is Unsupported
 
----
+1. 解压 ZIP。
+2. 上传整个 Skill 文件夹；或至少上传 `SKILL.md`。
+3. 告诉 AI：“请按照 `SKILL.md` 执行。”
 
-## 中文用户：5 分钟上手
+如果 AI 只能接收文字，打开 `SKILL.md`，复制内容到对话中，再上传简历和 JD。
 
-### 第 1 步：下载这个仓库
+Unzip the file and upload the Skill folder—or at least `SKILL.md`. If the AI only accepts text, paste the contents of `SKILL.md` into the conversation.
 
-1. 点击 GitHub 页面右上方绿色的 **Code** 按钮。
-2. 点击 **Download ZIP**。
-3. 下载完成后，双击 ZIP 解压。
+## 选择版本｜Choose a Version
 
-你会看到两个文件夹：
-
-| 文件夹 | 适合谁 |
+| Version | Best for |
 |---|---|
-| `interview-prep-coach-zh` | **推荐中文用户使用。** 中文讲解，也可以进行英文面试。 |
-| `interview-prep-coach-en` | 全英文讲解和面试练习。 |
+| `interview-prep-coach-zh` | 中文用户准备中文面试：中文提问、中文回答、中文反馈。 |
+| `interview-prep-coach-en` | 中文用户准备英文面试：英文提问与答案、中文辅导与反馈。 |
 
-> 如果你是中文用户、但面试是英文，仍然选择 `interview-prep-coach-zh`。它会用英文问面试题，用中文给你反馈。
+两个版本都面向中文用户；请按照实际面试语言选择。
 
-### 第 2 步：只压缩你需要的 Skill 文件夹
-
-不要直接上传整个 GitHub 仓库。
-
-以中文版为例：
-
-1. 找到 `interview-prep-coach-zh` 文件夹。
-2. 右键这个文件夹。
-3. Mac 选择 **压缩“interview-prep-coach-zh”**；Windows 选择 **发送到 → 压缩(zipped)文件夹**。
-4. 最终得到 `interview-prep-coach-zh.zip`。
-
-正确的 ZIP 内容应该是：
+## 常用指令｜Example Commands
 
 ```text
-interview-prep-coach-zh/
-├── SKILL.md
-├── README.md
-├── agents/
-│   └── openai.yaml
-└── references/
-    ├── interview-methodology.md
-    └── mock-interview-rubric.md
-```
-
-### 第 3 步：安装 Skill
-
-在支持 Skills 的 ChatGPT 或 Codex 中：
-
-1. 打开左侧栏的 **Plugins（插件）**。
-2. 进入 **Skills**。
-3. 选择 **Create（创建）**。
-4. 选择 **Upload from your computer（从电脑上传）**。
-5. 上传刚才生成的 `interview-prep-coach-zh.zip`。
-6. 按页面提示完成安装。
-
-不同账号、版本或工作区看到的按钮可能略有不同。如果没有 Skills 或 Upload 选项，请查看下面的“常见问题”。
-
-### 第 4 步：开始第一次面试准备
-
-安装后，新建一个对话，输入：
-
-```text
-使用 $interview-prep-coach-zh 帮我准备面试。
-这是我的简历和职位描述（JD）。
-```
-
-然后上传：
-
-1. 你的简历（PDF、Word 或文本均可）。
-2. 完整的 JD（文件、截图、网页内容或复制的文字均可）。
-
-可选信息：
-
-- 公司名称或招聘链接。
-- 面试轮次：Recruiter / Hiring Manager / Panel / Final。
-- 面试语言：中文或英文。
-- 面试日期。
-- 已经准备过的答案或笔记。
-
-### 第 5 步：告诉它你现在想做什么
-
-你不需要记复杂命令，直接用自然语言即可：
-
-```text
-帮我完整准备这场面试。
+分析这个 JD，告诉我最重要的三个能力。
 ```
 
 ```text
-只分析这个 JD，告诉我最重要的三个能力。
+把我的真实经历和岗位要求匹配一下。
 ```
 
 ```text
-把我的经历和岗位要求匹配一下。
+帮我准备 3 个可复用的 STAR 故事。
 ```
 
 ```text
-帮我准备 3 个最值得讲的 STAR 故事。
-```
-
-```text
-帮我准备英文 Tell me about yourself。
-```
-
-```text
-直接开始英文模拟面试，每次只问一题。
-```
-
-```text
-像严格的 Hiring Manager 一样追问我，每题后用中文反馈。
+直接开始英文模拟面试，每次只问一个问题。
 ```
 
 ```text
@@ -168,239 +94,41 @@ interview-prep-coach-zh/
 我刚面试完，帮我复盘。
 ```
 
-### 最简单的完整流程
-
 ```text
-简历 + JD
-→ 岗位真正需要什么
-→ 我的真实证据是否匹配
-→ 准备 3–5 个核心故事
-→ 预测重点问题
-→ 准备关键答案
-→ 模拟面试
-→ 面试速查表
-→ 面后复盘
-```
-
-你可以一次完成全部流程，也可以只做其中一步。
-
----
-
-## English Users: 5-Minute Setup
-
-### Step 1: Download this repository
-
-1. Select the green **Code** button on this GitHub page.
-2. Select **Download ZIP**.
-3. Unzip the downloaded file.
-
-Choose one Skill folder:
-
-| Folder | Best for |
-|---|---|
-| `interview-prep-coach-en` | English coaching and interview practice. |
-| `interview-prep-coach-zh` | Chinese coaching, including English-language interviews. |
-
-### Step 2: Zip only your chosen Skill folder
-
-Do not upload the complete GitHub repository.
-
-For the English version:
-
-1. Locate `interview-prep-coach-en`.
-2. Right-click the folder.
-3. On macOS, select **Compress**. On Windows, select **Send to → Compressed (zipped) folder**.
-4. You should now have `interview-prep-coach-en.zip`.
-
-The ZIP should contain:
-
-```text
-interview-prep-coach-en/
-├── SKILL.md
-├── README.md
-├── agents/
-│   └── openai.yaml
-└── references/
-    ├── interview-methodology.md
-    └── mock-interview-rubric.md
-```
-
-### Step 3: Install the Skill
-
-In a ChatGPT or Codex experience that supports Skills:
-
-1. Open **Plugins** in the sidebar.
-2. Open **Skills**.
-3. Select **Create**.
-4. Select **Upload from your computer**.
-5. Upload `interview-prep-coach-en.zip`.
-6. Follow the on-screen installation prompt.
-
-Labels may differ slightly by account, product version, or workspace. See Troubleshooting if Skills or uploads are unavailable.
-
-### Step 4: Start your first session
-
-Open a new conversation and enter:
-
-```text
-Use $interview-prep-coach-en to prepare me for this interview.
-Here are my resume and the job description.
-```
-
-Attach:
-
-1. Your resume or CV.
-2. The complete job description.
-
-Optional context:
-
-- Company name or job-posting URL.
-- Interview stage: recruiter, hiring manager, panel, or final.
-- Interview language.
-- Interview date.
-- Existing answers or notes.
-
-### Step 5: Ask for the module you need
-
-```text
-Prepare me completely for this interview.
-```
-
-```text
-Analyze only the JD and rank the three most important capabilities.
-```
-
-```text
-Match my real experience to this role.
-```
-
-```text
-Help me build three reusable STAR stories.
-```
-
-```text
-Help me answer “Tell me about yourself.”
+Analyze this JD and rank the top three capabilities.
 ```
 
 ```text
 Start a mock interview and ask one question at a time.
 ```
 
-```text
-Act like a tough hiring manager and give feedback after every answer.
-```
+## 核心原则｜Core Rule
 
-```text
-Create a cheat sheet I can review in ten minutes.
-```
-
-```text
-I just finished the interview. Help me debrief.
-```
-
----
-
-## What the Skill Produces｜你会得到什么
-
-- Role purpose and competency analysis｜岗位本质与核心能力分析。
-- Resume × JD evidence map｜简历与 JD 证据地图。
-- Top selling points and honest gap positioning｜核心卖点与真实 Gap 定位。
-- Three to five reusable STAR stories｜3–5 个可复用 STAR 故事。
-- Prioritized interview questions｜按优先级排序的面试题。
-- Critical answer outlines or spoken scripts｜关键答案提纲或口语稿。
-- Realistic mock interviews with follow-ups｜带连续追问的模拟面试。
-- Interview scorecard and specific feedback｜模拟面试评分与具体改进建议。
-- A concise pre-interview cheat sheet｜面试前速查表。
-- A structured post-interview debrief｜面后复盘。
-
-## Important Truthfulness Rule｜真实性原则
-
-这个 Skill 不应该为你编造：
+Skill 不会故意编造或夸大：
 
 - 工作经历、项目或职位。
-- “领导过”或“主导过”的虚假职责。
-- 不存在的工具、技术或行业经验。
-- 虚假的数字、百分比、金额、团队人数或客户影响。
+- Leadership、Ownership 或个人贡献。
+- 工具、技术、指标、金额、团队人数或影响。
 
-如果证据不足，它会标记 **证据缺口** 并向你追问，而不是替你编故事。
+证据不足时，应标记 **证据缺口** 并追问真实信息，而不是替用户编故事。
 
-This Skill must not invent experience, leadership, tools, technologies, metrics, team size, customer impact, achievements, or titles. Missing evidence should be labeled and clarified—not fabricated.
+The Skill must not invent experience, ownership, tools, metrics, impact, or titles. Missing evidence should be labeled and clarified.
 
-## Privacy Reminder｜隐私提醒
+## 隐私｜Privacy
 
-- 上传前可以删除简历中的家庭地址、电话、证件号码等不必要的敏感信息。
-- 不要上传公司机密、受 NDA 保护的材料或他人的私人信息。
-- 使用前请自行核对每一句答案是否准确。
+上传前删除不必要的地址、电话、证件信息。不要分享公司机密、NDA 材料或他人的私人信息。
 
-Remove unnecessary personal data before uploading. Do not share confidential employer information, NDA-protected material, or another person's private information. Review all prepared answers for factual accuracy.
+Remove unnecessary personal data. Do not share confidential, NDA-protected, or third-party private information.
 
-## Troubleshooting｜常见问题
-
-### 我找不到 Skills 或 Upload 按钮
-
-Skills 是否可用可能取决于你的套餐、产品版本、工作区设置和管理员权限。可以尝试：
-
-1. 确认使用的是支持 Skills 的 ChatGPT 或 Codex 版本。
-2. 查看侧边栏中的 **Plugins → Skills**。
-3. 更新桌面应用或重新打开网页。
-4. 如果使用公司/学校账号，联系 Workspace Admin 确认是否允许安装和上传 Skills。
-
-### The Skills or Upload option is missing
-
-Availability may depend on your plan, product surface, workspace settings, or role. Check **Plugins → Skills**, update/restart the app, or ask your workspace administrator whether Skill installation and uploading are enabled.
-
-### 上传后没有自动使用 Skill
-
-在新对话中明确写出：
-
-```text
-使用 $interview-prep-coach-zh 帮我准备面试。
-```
-
-英文版使用：
-
-```text
-Use $interview-prep-coach-en to prepare me for this interview.
-```
-
-### Skill 要我重新发简历或 JD
-
-确认文件已经成功上传，并且内容可以正常读取。也可以把 JD 直接复制到对话中。
-
-### 我没有任何管理经验，但 JD 要求 Leadership
-
-直接如实说明。Skill 应该帮助你寻找真实的影响力、协作、主动性或 Ownership 证据，并把 Leadership Gap 诚实标出来，而不是编造管理经历。
-
-### 我的故事没有数字怎么办？
-
-不要编数字。使用真实的定性结果，例如：流程被采用、问题得到解决、按时交付、风险降低、获得 Stakeholder 支持或客户反馈改善。
-
----
-
-## For Repository Maintainers｜给仓库维护者
+## 文件结构｜Files
 
 ```text
 Interview-Prep-Coach/
-├── README.md
-├── interview-prep-coach-en/
-│   ├── SKILL.md
-│   ├── README.md
-│   ├── agents/openai.yaml
-│   └── references/
-│       ├── interview-methodology.md
-│       └── mock-interview-rubric.md
-└── interview-prep-coach-zh/
-    ├── SKILL.md
-    ├── README.md
-    ├── agents/openai.yaml
-    └── references/
-        ├── interview-methodology.md
-        └── mock-interview-rubric.md
+├── downloads/                    # Ready-to-use ZIP files
+├── interview-prep-coach-en/      # English Skill
+└── interview-prep-coach-zh/      # Chinese Skill
 ```
 
-Each language folder is a standalone Skill and can be zipped and installed independently.
+每个语言文件夹都是独立 Skill，可以单独下载、安装或交给 AI 阅读。
 
-## Official Skill Help｜官方说明
-
-- [Skills in ChatGPT — OpenAI Help Center](https://help.openai.com/en/articles/20001066)
-- [Plugins in ChatGPT and Codex — OpenAI Help Center](https://help.openai.com/en/articles/20001256-plugins-in-codex)
+Each language folder is standalone and can be installed or read independently.
