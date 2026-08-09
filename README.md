@@ -1,6 +1,6 @@
 # Interview Prep Coach｜面试准备教练
 
-用 **简历 + JD** 完成岗位分析、经历匹配、STAR 故事、重点问题、模拟面试、速查表和面后复盘。
+告诉 AI 你准备的是**中文面试还是英文面试**，再发给它 **简历 + JD**。它会陪你一步步完成岗位分析、经历匹配、STAR 故事、重点问题、模拟面试、速查表和面后复盘。
 
 Use your **resume + job description** for role analysis, evidence mapping, STAR stories, likely questions, mock interviews, cheat sheets, and debriefs.
 
@@ -12,7 +12,7 @@ Use your **resume + job description** for role analysis, evidence mapping, STAR 
 
 ### 中文面试版
 
-适合准备中文面试的中文用户。
+如果你准备中文面试，选择这个版本。
 
 1. **[下载中文面试版 ZIP](https://github.com/xinyuan-zhao/Interview-Prep-Coach/raw/refs/heads/main/downloads/interview-prep-coach-zh.zip)**
 2. 把 ZIP 上传给你的 AI。
@@ -31,7 +31,7 @@ Use your **resume + job description** for role analysis, evidence mapping, STAR 
 
 ### 英文面试版
 
-适合准备英文面试的中文用户：AI 用英文提问和准备答案，用中文解释与反馈。
+如果你准备英文面试，选择这个版本。AI 会用英文提问和准备答案，用中文解释与反馈。
 
 1. **[下载英文面试版 ZIP](https://github.com/xinyuan-zhao/Interview-Prep-Coach/raw/refs/heads/main/downloads/interview-prep-coach-en.zip)**
 2. 把 ZIP 上传给你的 AI。
@@ -63,10 +63,10 @@ Unzip the file and upload the Skill folder—or at least `SKILL.md`. If the AI o
 
 | Version | Best for |
 |---|---|
-| `interview-prep-coach-zh` | 中文用户准备中文面试：中文提问、中文回答、中文反馈。 |
-| `interview-prep-coach-en` | 中文用户准备英文面试：英文提问与答案、中文辅导与反馈。 |
+| `interview-prep-coach-zh` | 中文面试：中文提问、中文回答、中文反馈。 |
+| `interview-prep-coach-en` | 英文面试：英文提问与答案、中文解释与反馈。 |
 
-两个版本都面向中文用户；请按照实际面试语言选择。
+只需要告诉 AI 你要准备中文面试还是英文面试，它就会按照对应语言陪你练习。
 
 ## 常用指令｜Example Commands
 
@@ -113,12 +113,6 @@ Skill 不会故意编造或夸大：
 证据不足时，应标记 **证据缺口** 并追问真实信息，而不是替用户编故事。
 
 The Skill must not invent experience, ownership, tools, metrics, impact, or titles. Missing evidence should be labeled and clarified.
-
-## 隐私｜Privacy
-
-上传前删除不必要的地址、电话、证件信息。不要分享公司机密、NDA 材料或他人的私人信息。
-
-Remove unnecessary personal data. Do not share confidential, NDA-protected, or third-party private information.
 
 ## 文件结构｜Files
 
