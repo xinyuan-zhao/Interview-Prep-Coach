@@ -8,6 +8,50 @@ This is an interview-preparation Skill for ChatGPT and Codex. Give it your **res
 
 ---
 
+## 🚀 最快安装｜Fastest Setup
+
+不懂 GitHub、不会压缩文件也没关系。只需要三步：
+
+### 中文版
+
+1. 点击下载：**[下载中文版 Skill ZIP](https://github.com/xinyuan-zhao/Interview-Prep-Coach/raw/refs/heads/main/downloads/interview-prep-coach-zh.zip)**
+2. 把下载的 ZIP 直接拖进支持 Skills 的 ChatGPT 或 Codex 对话。
+3. 输入：
+
+```text
+请帮我安装这个 Interview Prep Coach Skill。
+安装完成后告诉我如何开始。
+```
+
+AI 会检查文件并引导你完成安装确认。安装完成后，上传简历和 JD，然后说：
+
+```text
+使用 $interview-prep-coach-zh 帮我完整准备这场面试。
+```
+
+### English version
+
+1. Download: **[English Skill ZIP](https://github.com/xinyuan-zhao/Interview-Prep-Coach/raw/refs/heads/main/downloads/interview-prep-coach-en.zip)**
+2. Drag the ZIP into a ChatGPT or Codex conversation that supports Skills.
+3. Enter:
+
+```text
+Please help me install this Interview Prep Coach Skill.
+Tell me how to start after installation.
+```
+
+After installation, attach your resume and JD, then enter:
+
+```text
+Use $interview-prep-coach-en to prepare me completely for this interview.
+```
+
+> 安装 Skill 会改变你的账号配置，因此 AI 仍可能要求你点击一次确认。不同账号或工作区的功能入口可能略有不同。如果以上方式不可用，请继续阅读下面的详细教程。
+>
+> Installing a Skill changes your account configuration, so the AI may still ask you to confirm. If this quick method is unavailable for your account, use the detailed instructions below.
+
+---
+
 ## 中文用户：5 分钟上手
 
 ### 第 1 步：下载这个仓库
